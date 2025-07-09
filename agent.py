@@ -14,7 +14,7 @@ LOCATION = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
 
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
-# === Tools for Manager-Specified Domains ===
+# === Tools for Specified Domains ===
 credit_card_tool = VertexAiRagRetrieval(
     name='credit_card_compliance',
     description='Search credit card compliance documents',
