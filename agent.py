@@ -56,7 +56,7 @@ general_tool = VertexAiRagRetrieval(
 )
 
 # === Agent with Static Tools ===
-multi_domain_agent = LlmAgent(
+root_agent = LlmAgent(
     name='multi_domain_compliance_agent',
     model='gemini-2.0-flash',
     description='Routes queries to the correct compliance domain tool',
