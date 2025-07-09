@@ -22,7 +22,7 @@ credit_card_tool = VertexAiRagRetrieval(
         rag.RagResource(rag_corpus=f"projects/{PROJECT_ID}/locations/{LOCATION}/ragCorpora/1152921504606846976")
     ],
     similarity_top_k=5,
-    vector_distance_threshold=0.6
+    vector_distance_threshold=0.75
 )
 
 federal_deposit_tool = VertexAiRagRetrieval(
@@ -32,7 +32,7 @@ federal_deposit_tool = VertexAiRagRetrieval(
         rag.RagResource(rag_corpus=f"projects/{PROJECT_ID}/locations/{LOCATION}/ragCorpora/2882303761517117440")
     ],
     similarity_top_k=5,
-    vector_distance_threshold=0.6
+    vector_distance_threshold=0.75
 )
 
 electronic_fund_tool = VertexAiRagRetrieval(
@@ -42,7 +42,7 @@ electronic_fund_tool = VertexAiRagRetrieval(
         rag.RagResource(rag_corpus=f"projects/{PROJECT_ID}/locations/{LOCATION}/ragCorpora/8070450532247928832")
     ],
     similarity_top_k=5,
-    vector_distance_threshold=0.6
+    vector_distance_threshold=0.75
 )
 
 general_tool = VertexAiRagRetrieval(
@@ -52,7 +52,7 @@ general_tool = VertexAiRagRetrieval(
         rag.RagResource(rag_corpus=f"projects/{PROJECT_ID}/locations/{LOCATION}/ragCorpora/3596124302455341056")
     ],
     similarity_top_k=5,
-    vector_distance_threshold=0.6
+    vector_distance_threshold=0.75
 )
 
 # === Agent with Static Tools ===
