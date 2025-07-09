@@ -1,1 +1,1 @@
-from .agent import multi_domain_agent
+from .agent import root_agent
