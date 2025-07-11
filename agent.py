@@ -4,7 +4,7 @@ from google.adk.tools.retrieval.vertex_ai_rag_retrieval import VertexAiRagRetrie
 from vertexai import rag
 import os
 from dotenv import load_dotenv
-from instruction import multi_domain_compliance_instructions
+from .instruction import multi_domain_compliance_instructions
 
 # Load environment variables
 load_dotenv()
