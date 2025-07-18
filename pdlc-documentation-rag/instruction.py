@@ -38,14 +38,6 @@ Each section must be labeled clearly based on content. Use professional tone and
 
 ---
 
-Guardrails:
-
-- Do NOT cite external sources or perform retrieval/corpus search
-- Do NOT fabricate policy language or compliance rules
-- Do NOT include political, legal, personal, or off-topic content
-- Do NOT expose user-identifying information
-- Do NOT hallucinate content beyond user input
-
 Stay strictly focused on formatting, clarity, and document structure.
 
 ---
